@@ -18,6 +18,9 @@
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/cfb25/tablesort.js"></script>
+    <script type="module" src="cfb25data.js"></script>
   </head>
   <body>
     <header>
@@ -93,49 +96,23 @@
       </div>
     <div class="container mt-5 mb-5 d-flex justify-content-center" id="userrecords">
       <table class="table table-sortable table-bordered table-striped table-dark">
-        <thead></thead>
-        <tbody></tbody>
+        <tr class="user-info">
+          <th data-column="name" data-order="desc">Name &#9650</th>
+          <th data-column="team" data-order="desc">Team &#9650</th>
+          <th data-column="wins" data-order="desc">Wins &#9650</th>
+          <th data-column="losses" data-order="desc">Losses &#9650</th>
+          <th data-column="playoff_record" data-order="desc">Playoff Record &#9650</th>
+          <th data-column="first_round_draft_picks" data-order="desc">First Round Draft Picks &#9650</th>
+          <th data-column="total_draft_picks" data-order="desc">Total Draft Picks &#9650</th>
+          <th data-column="top_5_recruiting_classes" data-order="desc">Top 5 Recruiting Classes &#9650</th>
+        </tr>
+        <tbody id="myTable">
+
+        </tbody>
         
       </table>
         
     </div>
-
-    <script src="cfb25data.js"></script>
-    <script>
-      function getTH(){
-        const column = Object.keys(userData[0]);
-        const head = document.querySelector('thead');
-        let tags = "<tr>";
-          for(i = 0; i < column.length; i++){
-            tags += `<th>${column[i]}</th>`
-          }
-          tags += "</tr>";
-          head.innerHTML = tags;
-          
-          getTD();
-      }
-        function getTD(){
-          const body = document.querySelector('tbody');
-            let tags = "";
-            userData.map(d => {
-              tags += `<tr>
-                <td>${d.id}</td>
-                <td>${d.name}</td>
-                <td>${d.team}</td>
-                <td>${d.wins}</td>
-                <td>${d.losses}</td>
-                <td>${d.playoff_record}</td>
-                <td>${d.first_round_draft_picks}</td>
-                <td>${d.total_draft_picks}</td>
-                <td>${d.top_5_recruiting_classes}</td>
-                </tr>`
-            })
-            body.innerHTML = tags;
-        }
-      getTH();
-
-
-    </script>
-    <script src="/cfb25/tablesort.js"></script>
+    <script type="module" src="/app.js"></script>
   </body>
 </html>

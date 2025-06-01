@@ -1,8 +1,8 @@
-   var userData = [
+var userData = [
     {
         "id": "1",
-        "name": "ryby",
-        "team": "miami",
+        "name": "Ryby",
+        "team": "Miami",
         "wins": 54,
         "losses": 10,
         "playoff_record": "3-4",
@@ -12,8 +12,8 @@
     },
     {
         "id": "2",
-        "name": "mad",
-        "team": "uga",
+        "name": "Mad",
+        "team": "UGA",
         "wins": 53,
         "losses": 13,
         "playoff_record": "10-3",
@@ -23,8 +23,8 @@
     },
     {
         "id": "3",
-        "name": "jimbo",
-        "team": "lsu",
+        "name": "Jimbo",
+        "team": "LSU",
         "wins": 61,
         "losses": 15,
         "playoff_record": "12-2",
@@ -34,8 +34,8 @@
     },
     {
         "id": "4",
-        "name": "coy",
-        "team": "texas",
+        "name": "Coy",
+        "team": "Texas",
         "wins": 50,
         "losses": 19,
         "playoff_record": "3-3",
@@ -45,8 +45,8 @@
     },
     {
         "id": "5",
-        "name": "wookie",
-        "team": "navy",
+        "name": "Wookie",
+        "team": "Navy",
         "wins": 9,
         "losses": 5,
         "playoff_record": "0-0",
@@ -56,8 +56,8 @@
     },
     {
         "id": "6",
-        "name": "jerred",
-        "team": "oklahoma state",
+        "name": "Jerred",
+        "team": "Oklahoma State",
         "wins": 56,
         "losses": 14,
         "playoff_record": 4-2,
@@ -67,8 +67,8 @@
     },
     {
         "id": "7",
-        "name": "schley",
-        "team": "penn state",
+        "name": "Schley",
+        "team": "Penn State",
         "wins": 63,
         "losses": 10,
         "playoff_record": "3-5",
@@ -78,8 +78,8 @@
     },
     {
         "id": "8",
-        "name": "rob",
-        "team": "cincinnati",
+        "name": "Rob",
+        "team": "Cincinnati",
         "wins": 59,
         "losses": 17,
         "playoff_record": "6-4",
@@ -89,8 +89,8 @@
     },
     {
         "id": "9",
-        "name": "windy",
-        "team": "tennessee",
+        "name": "Windy",
+        "team": "Tennessee",
         "wins": 46,
         "losses": 6,
         "playoff_record": "2-3",
@@ -100,8 +100,8 @@
     },
     {
         "id": "10",
-        "name": "my bad",
-        "team": "notre dame",
+        "name": "My Bad",
+        "team": "Notre Dame",
         "wins": 59,
         "losses": 11,
         "playoff_record": "2-4",
@@ -111,8 +111,8 @@
     },
     {
         "id": "11",
-        "name": "xman",
-        "team": "usc",
+        "name": "Xman",
+        "team": "USC",
         "wins": 48,
         "losses": 21,
         "playoff_record": "3-2",
@@ -122,8 +122,8 @@
     },
     {
         "id": "12",
-        "name": "orca",
-        "team": "north carolina",
+        "name": "Orca",
+        "team": "North Carolina",
         "wins": 54,
         "losses": 16,
         "playoff_record": "0-5",
@@ -133,8 +133,8 @@
     },
     {
         "id": "13",
-        "name": "sauce",
-        "team": "oregon",
+        "name": "Sauce",
+        "team": "Oregon",
         "wins": 50,
         "losses": 20,
         "playoff_record": "2-3",
@@ -144,8 +144,8 @@
     },
     {
         "id": "14",
-        "name": "vapo",
-        "team": "colorado",
+        "name": "Vapo",
+        "team": "Colorado",
         "wins": 47,
         "losses": 19,
         "playoff_record": "0-1",
@@ -155,8 +155,8 @@
     },
     {
         "id": "15",
-        "name": "ozy",
-        "team": "alabama",
+        "name": "Ozy",
+        "team": "Alabama",
         "wins": 16,
         "losses": 11,
         "playoff_record": "0-1",
@@ -166,8 +166,8 @@
     },
     {
         "id": "16",
-        "name": "rellik",
-        "team": "fsu",
+        "name": "Rellik",
+        "team": "FSU",
         "wins": 45,
         "losses": 19,
         "playoff_record": "0-1",
@@ -177,8 +177,8 @@
     },
     {
         "id": "17",
-        "name": "tolg",
-        "team": "ucla",
+        "name": "Tolg",
+        "team": "UCLA",
         "wins": 13,
         "losses": 12,
         "playoff_record": "0-0",
@@ -188,8 +188,8 @@
     },
     {
         "id": "18",
-        "name": "wonka",
-        "team": "ohio state",
+        "name": "Wonka",
+        "team": "Ohio State",
         "wins": 40,
         "losses": 24,
         "playoff_record": "0-2",
@@ -199,8 +199,8 @@
     },
     {
         "id": "19",
-        "name": "duv",
-        "team": "clemson",
+        "name": "Duv",
+        "team": "Clemson",
         "wins": 0,
         "losses": 0,
         "playoff_record": "0-0",
@@ -211,8 +211,8 @@
 
     {
         "id": "20",
-        "name": "frosty",
-        "team": "byu",
+        "name": "Frosty",
+        "team": "BYU",
         "wins": 0,
         "losses": 0,
         "playoff_record": "0-0",
@@ -222,8 +222,8 @@
     },
     {
         "id": "20",
-        "name": "dream",
-        "team": "texas tech",
+        "name": "Dream",
+        "team": "Texas Tech",
         "wins": 0,
         "losses": 0,
         "playoff_record": "0-0",
@@ -232,3 +232,40 @@
         "top_5_recruiting_classes": 0
     },
 ]
+
+$('th').on('click', function() {
+    var column = $(this).data('column')
+    var order = $(this).data('order')
+    var text = $(this).html()
+    text = text.substring(0, text.length - 1)
+
+    if(order == 'desc'){
+        $(this).data('order', "asc")
+        userData = userData.sort((a,b) => a[column] > b[column] ? 1 : -1)
+        text += '&#9660'
+    }else{
+        $(this).data('order', "desc")
+        userData = userData.sort((a,b) => a[column] < b[column] ? 1 : -1)
+        text += '&#9650'
+    }
+    $(this).html(text);
+    buildTable(userData)
+});
+buildTable(userData)
+function buildTable(data) {
+  var table = document.getElementById("myTable");
+    table.innerHTML = '';
+  for (var i = 0; i < data.length; i++) {
+    var row = `<tr>
+                <td>${data[i].name}</td>
+                <td>${data[i].team}</td>
+                <td>${data[i].wins}</td>
+                <td>${data[i].losses}</td>
+                <td>${data[i].playoff_record}</td>
+                <td>${data[i].first_round_draft_picks}</td>
+                <td>${data[i].total_draft_picks}</td>
+                <td>${data[i].top_5_recruiting_classes}</td>
+                </tr>`;
+    table.innerHTML += row;
+  }
+}
